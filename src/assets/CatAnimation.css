@@ -1,0 +1,17 @@
+.caty{
+    background-color:#ff26439c;
+}
+.flying-heart {
+    animation: fly-heart 1.5s ease-in-out infinite; /* Infinite loop for heart animation */
+  }
+  
+  @keyframes fly-heart {
+    0% {
+      transform: translate(140px, 130px) scale(0.3);
+    }
+
+    100% {
+        transform: translate(300px, 10px) scale(1.7); /* Return to original position */
+    }
+  }
+  
